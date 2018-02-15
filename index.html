@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Psychic-Game</title>
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+    </head>
+    <body>
+        
+        <!--Nav-Bar-->
+        <nav class="navbar navbar-dark dark">
+            <h1 id="HeadLogo">Psychic Game | Play At Your Own Risk</h1>
+        </nav>
+
+        <!--Main Container/Body/Where the Java magic happens-->
+        <div class="Container" id="psychicContainer">
+            <!--Row 1/Image Row-->
+            <div class="row">
+                <!--Column 1/For Image-->
+                <div class="col-sm-6">
+                <img src="assets/images/crystalball.png" alt="Psychic Image" id="ImageSize">
+            </div>
+            <!--Column 2 In Image Row To Wrap "Sub Rows"-->
+            <div class="col-sm-6">
+                <div>
+                    <!--Sub Row 1/Game Title-->
+                    <div class="row">
+                        <div class="col-sm-8" id="gameTitle">
+                            <h1>The Psychic Game</h1>
+                        </div>
+                    </div>
+                    <!--Sub Row 2/Game Explanation-->
+                    <div class="row" id="gameInstructions">
+                        <div class="col-sm-8">
+                            <p>Try to guess the letter the computer has picked. Any letter from A-Z</p>
+                        </div>
+                    </div>
+                    <!--Sub Row 3/Game Title and game play with inputs-->
+                    <div class="row">
+                        <div class="col-sm-8" id="gameContent">
+                           <h2 id="gameTitle2">Are you Psychic?</h2>
+                           <div id="javaGame">
+                           <ul class="list-gourp">
+                               <li class="list-group-item"><p id="wins">Wins:</p></li>
+                               <li class="list-group-item"><p id="losses">Losses:</p></li>
+                               <li class="list-group-item"><p id="guessesLeft">Guesses Left:</p></li>
+                               <li class="list-group-item"><p id="">Your Guesses So Far:</p></li>
+                           </ul>
+                           </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        <!--Javascript Insert-->  
+        <script tabindex="text/javascript" src="assets/javascript/game.js"></script>
+
+        <!--Footer-->
+        <footer>
+            <div id="footerDesign">
+                <a href="https://www.google.com">About Chris Kalla</a> | <a href="https://github.com/CKalla87/Responsive-Portfolio">Github Repo</a>
+                <br>
+                &#64; Copyright 2018 Psychic-Game
+            </div>
+        </footer>
+    </body>
+</html>

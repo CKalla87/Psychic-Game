@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  black;
+}
+
+
+
+/*Main Image*/
+#ImageSize {
+    width: 500px;
+    height: 400px;
+    margin-top: 3px;
+}
+
+/*Logo Header*/
+#HeadLogo {
+    background: whitesmoke;
+    box-shadow: 1px 1px 1px whitesmoke;
+    margin-bottom: auto;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: inherit;
+}
+
+/*Nav Bar Style*/
+.dark {
+    padding: 0;
+    box-shadow: 3px 3px 3px rgb(20, 20, 20);
+}
+
+/*Game Title*/
+#gameTitle {
+    margin-top: 50px;
+    margin-left: -180px;
+}
+
+/*Game Instructions*/
+#gameInstructions {
+    margin-top: 10px;
+    margin-left: -350px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+/*Title 2*/
+#gameTitle2 {
+    margin-left: -130px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+/*Unordered List*/
+#javaGame {
+    margin-left: -350px;
+    width: 700px;
+}
+
+/*Footer*/
+footer {
+    padding: 20px 0;
+    font-size: 15px;
+    color: inherit;
+    text-align: center;
+    background: black;
+    border-top: 1px solid  rgb(20, 20, 20);
+    margin-top: 250px;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    columns: blue;
+    text-decoration: underline;
+}
+
