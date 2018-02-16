@@ -2,7 +2,7 @@
 
 <html lang="en-us">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Psychic-Game</title>
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -21,22 +21,22 @@
             <!--Row 1/Image Row-->
             <div class="row">
                 <!--Column 1/For Image-->
-                <div class="col-sm-6">
+                <div class="col-6">
                 <img src="assets/images/crystalball.png" alt="Psychic Image" id="ImageSize">
             </div>
             <!--Column 2 In Image Row To Wrap "Sub Rows"-->
-            <div class="col-sm-6">
+            <div class="col-6">
                 <div>
                     <!--Sub Row 1/Game Title-->
                     <div class="row">
-                        <div class="col-sm-8" id="gameTitle">
+                        <div class="col-8" id="gameTitle">
                             <h1>The Psychic Game</h1>
                         </div>
                     </div>
                     <!--Sub Row 2/Game Explanation-->
                     <div class="row" id="gameInstructions">
-                        <div class="col-sm-8">
-                            <p>Try to guess the letter the computer has picked. Any letter from A-Z</p>
+                        <div class="col-8">
+                            <p id="gameStyle">Try to guess the letter the computer has picked. Any letter from A-Z</p>
                         </div>
                     </div>
                     <!--Sub Row 3/Game Title and game play with inputs-->
@@ -44,11 +44,11 @@
                         <div class="col-sm-8" id="gameContent">
                            <h2 id="gameTitle2">Are you Psychic?</h2>
                            <div id="javaGame">
-                           <ul class="list-gourp">
+                           <ul class="list-group">
                                <li class="list-group-item"><p id="wins">Wins:</p></li>
                                <li class="list-group-item"><p id="losses">Losses:</p></li>
                                <li class="list-group-item"><p id="guessesLeft">Guesses Left:</p></li>
-                               <li class="list-group-item"><p id="">Your Guesses So Far:</p></li>
+                               <li class="list-group-item"><p id="guessSofar">Your Guesses So Far:</p></li>
                            </ul>
                            </div>
                         </div>
