@@ -1,5 +1,7 @@
 # Psychic-Game
 
+https://ckalla87.github.io/Psychic-Game/
+
 Game Play Instructions:
 
 1. Guess what letter I'm thinking of. You will do this by inputting a letter of your choosing on the keyboard.
